@@ -7,7 +7,7 @@ This project is a great example of how to use create Terraform scripts within Vi
 What the files contain:
 
 1. Main.tf - Both the required provider that we are going to be using as well as the provider we are going to use for the other files. In this project the provider was Azure ("azurerm").
-2. Storage.tf - Contains the storage account creation script with the delete retention policy, the network rules as well as the three contains that were created with their dedicated names (Gold, Silver and Bronze).
+2. Storages1.tf - Contains the storage account creation script with the delete retention policy, the network rules as well as the three contains that were created with their dedicated names (Gold, Silver and Bronze).
 3. Vnet.tf - Has the V Net creation script and two seperate subnet creation script as well.
 
 ## Steps for this project 
